@@ -7,16 +7,17 @@
 ### project structure
 
 |-- src/
+
 | |-- components/
+
 | | |-- AddTaskForm.tsx
 
-| | |
 | | |-- EditTaskForm.tsx
 
-| | |
 | | |-- TaskList.tsx
 
 | |-- App.tsx
+
 | |-- index.tsx
 
 - TaskList
