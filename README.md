@@ -8,15 +8,12 @@
 
 |-- src/
 | |-- components/
-| | |-- AddTaskForm/
-| | | |-- AddTaskForm.tsx
+| | |-- AddTaskForm.tsx
 
 | | |
-| | |-- EditTaskForm/
-| | | |-- EditTaskForm.tsx
+| | |-- EditTaskForm.tsx
 
 | | |
-| | |-- TaskList/
 | | |-- TaskList.tsx
 
 | |-- App.tsx
