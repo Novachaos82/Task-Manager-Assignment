@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import TaskList from "./components/TaskList";
 import AddTaskForm from "./components/AddTaskForm";
-import EditTaskForm from "./components/EditTaskForm";
+import EditTaskForm from "./components/EditTaskFormt.tsx";
 interface task {
   id: number;
   name: string;
@@ -47,12 +47,12 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
+        <nav className="flex justify-center bg-black">
+          <ul className=" text-white flex p-4 gap-8">
+            <li className="bg-blue-600 px-4 py-2 rounded-lg ">
               <Link to="/">Task List</Link>
             </li>
-            <li>
+            <li className="bg-red-600 px-4 py-2 rounded-lg ">
               <Link to="/add">Add Task</Link>
             </li>
           </ul>
